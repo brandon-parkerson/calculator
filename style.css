@@ -20,7 +20,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.display {
+#display {
     border: 1px solid red;
     height: 100px;
     width: 650px;
@@ -28,7 +28,7 @@ body {
     
 }
 
-button {
+input {
     font-size: 100px;
     margin: 35px;
     background-color: black;
@@ -37,6 +37,6 @@ button {
     
 }
 
-button.operator {
+input.operator {
     background-color: rgb(228, 154, 16);
 }

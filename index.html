@@ -9,27 +9,28 @@
 <body>
     <h1>Calculator</h1>    
     <div class="calculator">
-        <div class="display"></div>
+        <div id="display"></div>
         <div class="buttons">
-            <button class="seven">7</button>
-            <button class="eight">8</button>
-            <button class="nine">9</button>
-            <button class="times operator" >x</button>
+            <input type="button" class="seven" onclick="moveToDisplay(this)" value="7"></input>
+            <input type="button" class="eight" onclick="moveToDisplay(this)" value="8"></input>
+            <input type="button" class="nine" onclick="moveToDisplay(this)" value="9"></input>
+            <input type="button" class="times operator" onclick="moveToDisplay(this)" value=" X "></input>
             
 
-            <button class="four">4</button>
-            <button class="five">5</button>
-            <button class="six">6</button>
-            <button class="divide operator">/</button>
+            <input type="button" class="four" onclick="moveToDisplay(this)" value="4"></input>
+            <input type="button" class="five" onclick="moveToDisplay(this)" value="5"></input>
+            <input type="button" class="six" onclick="moveToDisplay(this)" value="6"></input>
+            <input type="button" class="divide operator" onclick="moveToDisplay(this)" value=" / "></input>
 
-            <button class="one">1</button>
-            <button class="two">2</button>
-            <button class="three">3</button>
-            <button class="minus operator">-</button>
+            <input type="button" class="one" onclick="moveToDisplay(this)" value="1"></input>
+            <input type="button" class="two" onclick="moveToDisplay(this)" value="2"></input>
+            <input type="button" class="three" onclick="moveToDisplay(this)" value="3"></input>
+            <input type="button" class="minus operator" onclick="moveToDisplay(this)" value=" - "></input>
 
-            <button class="zero">0</button>
-            <button class="point">.</button>
-            <button class="plus operator">+</button>
+            <input type="button" class="zero" onclick="moveToDisplay(this)" value="0"></input>
+            <input type="button" class="point" onclick="moveToDisplay(this)" value="."></input>
+            <input type="button" class="equals operator" value="="></input>
+            <input type="button" class="plus operator" onclick="moveToDisplay(this)" value=" + "></input>
 
         </div>
     </div>
