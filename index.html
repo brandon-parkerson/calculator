@@ -9,28 +9,42 @@
 <body>
     <h1>Calculator</h1>    
     <div class="calculator">
-        <div id="display"></div>
+        <div id="display">12345678</div>
         <div class="buttons">
-            <input type="button" class="seven" onclick="moveToDisplay(this)" value="7"></input>
-            <input type="button" class="eight" onclick="moveToDisplay(this)" value="8"></input>
-            <input type="button" class="nine" onclick="moveToDisplay(this)" value="9"></input>
-            <input type="button" class="times operator" onclick="moveToDisplay(this)" value=" X "></input>
+            <div class="row-one">
+                <input type="button" class="seven" onclick="moveToDisplay(this)" value="7"></input>
+                <input type="button" class="eight" onclick="moveToDisplay(this)" value="8"></input>
+                <input type="button" class="nine" onclick="moveToDisplay(this)" value="9"></input>
+                <input type="button" class="times operator" onclick="moveToDisplay(this)" value=" X "></input>
             
-
-            <input type="button" class="four" onclick="moveToDisplay(this)" value="4"></input>
-            <input type="button" class="five" onclick="moveToDisplay(this)" value="5"></input>
-            <input type="button" class="six" onclick="moveToDisplay(this)" value="6"></input>
-            <input type="button" class="divide operator" onclick="moveToDisplay(this)" value=" / "></input>
-
-            <input type="button" class="one" onclick="moveToDisplay(this)" value="1"></input>
-            <input type="button" class="two" onclick="moveToDisplay(this)" value="2"></input>
-            <input type="button" class="three" onclick="moveToDisplay(this)" value="3"></input>
-            <input type="button" class="minus operator" onclick="moveToDisplay(this)" value=" - "></input>
-
-            <input type="button" class="zero" onclick="moveToDisplay(this)" value="0"></input>
+            </div>
+            
+            
+            <div class="row-two">
+                <input type="button" class="four" onclick="moveToDisplay(this)" value="4"></input>
+                <input type="button" class="five" onclick="moveToDisplay(this)" value="5"></input>
+                <input type="button" class="six" onclick="moveToDisplay(this)" value="6"></input>
+                <input type="button" class="divide operator" onclick="moveToDisplay(this)" value=" / "></input>
+            </div>
+            
+            <div class="row-three">
+                <input type="button" class="one" onclick="moveToDisplay(this)" value="1"></input>
+                <input type="button" class="two" onclick="moveToDisplay(this)" value="2"></input>
+                <input type="button" class="three" onclick="moveToDisplay(this)" value="3"></input>
+                <input type="button" class="minus operator" onclick="moveToDisplay(this)" value=" - "></input>
+            </div>
+            
+            <div class="row-four">
+                <input type="button" class="zero" onclick="moveToDisplay(this)" value="0"></input>
             <input type="button" class="point" onclick="moveToDisplay(this)" value="."></input>
             <input type="button" class="equals operator" value="="></input>
             <input type="button" class="plus operator" onclick="moveToDisplay(this)" value=" + "></input>
+            
+            </div>
+            <div class="row-five">
+                <input type="button" class="clear operator" value="C">
+            </div>
+            
 
         </div>
     </div>
