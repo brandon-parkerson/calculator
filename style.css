@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(-45deg, #0a0805, #0d8f5d, #c4af0c, #23d5ab);
+    background: linear-gradient(-45deg, #0a0805, #0d8f5d, #c4650c, #233ed5);
         height: 100vh;
     justify-content: center;
 }
